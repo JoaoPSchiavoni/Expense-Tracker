@@ -1,4 +1,5 @@
-import datetime
+lista = [{"A": 1}, {"B", 2}]
+listaIds = [1, 2]
 
-data_atual = datetime.datetime.now().strftime("%d/%m/%Y")
-print(data_atual)
+print(lista[0])
+print(listaIds.index(2))
